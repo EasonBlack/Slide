@@ -1,0 +1,49 @@
+body, html ,ul, li{
+   margin:0px;
+   padding:0px;
+   font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  height:300px;
+  overflow:hidden;
+}
+
+ul {
+  position: relative;
+  list-style: none;
+  width: 1600px;
+  height:300px;
+  font-size:0;
+}
+
+.ul-slide {
+  animation: 20s slide infinite;
+}
+
+li {
+  display:inline-block;
+}
+
+#condition-container {
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+}
+
+@keyframes slide {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
